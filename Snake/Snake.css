@@ -1,0 +1,29 @@
+.btn:hover{background:rgb(181, 230, 108);
+            color:black;
+            transition-duration: 1s;}
+#btn{font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width:150px;
+    height:30px;
+border: 2px solid;
+border-radius: 20px;
+cursor: pointer;}
+#btn1{font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width:150px;
+    height:30px;
+border: 2px solid;
+border-radius: 20px;
+cursor: pointer;}
+#main{text-align: center;
+    margin-top:5px;}
+#gamebox{border:2px solid black;}
+#scoretext{font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;}
+#resetbtn{font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            width:150px;
+            height:30px;
+        border: 2px solid;
+        border-radius: 20px;
+        cursor: pointer;}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="Snake.css">
+</head>
+<body style="text-align:center;" id="body">
+    <button id="btn" onclick="enter()" class="btn">Enter Game</button><input type="reset" id="btn1" style="visibility:hidden;" onclick="exit()" class="btn" value="Exit Game"><button id="resetbtn" class="btn"  style="visibility:hidden;" onclick="reset()">Restart</button>
+    <div id="main" style="visibility:hidden;">
+        <div id="score" style="font-weight:bold;"></div>
+        <canvas id="gamebox" width="450" height="450"></canvas>
+        <div id="scoretext">0</div>
+        
+    </div>
+    <script src="Snake.js"></script>
+</body>
+</html>
